@@ -9,9 +9,10 @@ Topics
  
 - Vectorization: Count & TFIDF & Doc2Vec
 - n-grams
-### Current Best Model:
-  Miltinomial Logistic Regression \
-  Count Vectorizer, feature = 4000
+### Final Best Model:
+  `LogisticRegression(C=1,multi_class='multinomial',solver='saga',penalty='l1')`
+  
+  TFIDF Vectorizer, `feature = 10000, n-gram = (1,3)`
   
 
 ## Data:
@@ -24,4 +25,4 @@ Data used for final model:
 - Sentiment 140 Data [source](http://help.sentiment140.com/for-students)
 
 ## References 
-See Notebook
+See Notebooks
